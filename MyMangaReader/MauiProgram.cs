@@ -1,9 +1,13 @@
-﻿namespace MyMangaReader;
+﻿using MyMangaReader.ViewModels;
+
+namespace MyMangaReader;
 
 public static class MauiProgram
 {
 	public static MauiApp CreateMauiApp()
 	{
+		//SettingsViewModel.Load();
+
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
